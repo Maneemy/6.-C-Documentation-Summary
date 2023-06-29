@@ -1,7 +1,13 @@
-@media (max-width:768px) {
-  main {width:100vw;}
+@media screen (max-width:768px) and (min-width:480px) {
+  main {width:73vw;}
+  nav {width:20em;}
 }
 
+@media only screen and (orientation:landscape) {
+  main{overflow: auto;}
+  nav{overflow: auto;}
+  
+}
 .master-header{
   text-align: center;
   font-size: 26px;
@@ -22,13 +28,15 @@
 }
 
 nav {
-background-color: rgb(224, 107, 34);
+background-color:rgba(132, 157, 167, 0.459);
 position:fixed;
 z-index: 1;
 top: 1px;
 height:38em;
 width:20em;
 overflow-y:auto;
+border: 2px solid red;
+border-radius: 10px;
 }
 
 details > summary {
@@ -56,8 +64,8 @@ nav .nav-link-sub, .nav-link{
 
 nav .nav-link{
 padding-top: 5px;
-padding-right: 5px;
-margin: 6px 2px;
+padding-right: 6px;
+margin: 6px 3px;
 font-weight: bold;
 }
 
@@ -68,17 +76,18 @@ nav .nav-link-sub{
 
 body{
   width: 100vw;
-  background-color: rgba(209, 208, 205, 0.699);
+  background-color:rgba(195, 220, 242, 0.422);
 }
 
 main {
   display:block;
   position: absolute;
-  top:2em;
+  top:1em;
   left:21em;
-  width: 52em;;
+  width:73vw;
+  padding-bottom: 1em;
   text-align: justify;
-  background-color:rgba(18, 126, 214, 0.199)
+  background-color:rgba(156, 208, 242, 0.217);
 }
 
 a {font-style: normal;
@@ -92,6 +101,21 @@ color: gainsboro;}
 
 .gtk {
   background-color: rgba(224, 14, 14, 0.178);
-display: block;
-margin:auto;
+display:block;
+width: fit-content;
+padding-right: 100px;
+margin: auto;
 text-align: center;}
+
+ul > li, ol > li{
+  padding: 4px 4px;
+}
+
+P, h1, h2, h3, h4 {
+  padding: 0 6px;
+}
+
+h1 {
+text-decoration: underline;
+text-align: center;
+}
