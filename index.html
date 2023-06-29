@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>C++ Documentation Summary</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <nav id="navbar">
+      <header class="master-header-box">
+        <h1 class="master-header">C++ Documentation</h1>
+      </header>
+      <div class="divider-large"></div>
+      
+      <details open>
+        <summary><a class="nav-link" href="#section1">1. Introduction </a></summary>
+        <a class="nav-link-sub" href="#section1-1">Advantages of C++</a><br>
+        <a class="nav-link-sub" href="#section1-2">Applications of C++</a>
+      </details>
+      <div class="divider-small"></div>
+
+      <details open>
+        <summary><a class="nav-link" href="#section2">2. C++ Basic Syntax </a></summary>
+        <a class="nav-link-sub" href="#section2-1">Identifiers</a><br>
+        <a class="nav-link-sub" href="#section2-2">Comments</a>
+      </details>
+      <div class="divider-small"></div>
+
+      <details open>
+        <summary><a class="nav-link" href="#section3">3. C++ Variables </a></summary>
+        <a class="nav-link-sub" href="#section3-1">Declaring Variables</a><br>
+        <a class="nav-link-sub" href="#section3-2">Displaying Variables</a><br>
+        <a class="nav-link-sub" href="#section3-3">Adding Variables</a><br>
+        <a class="nav-link-sub" href="#section3-4">Declaring Variables</a>
+      </details>
+      <div class="divider-small"></div>
+
+      <a class="nav-link" href="#section4">4. C++ User Input </a>
+      <div class="divider-small"></div>
+
+      
+      <details open>
+        <summary><a class="nav-link" href="#section5">5. C++ Conditions and If Statements </a></summary>
+        <a class="nav-link-sub" href="#section5-1">if Statement</a><br>
+        <a class="nav-link-sub" href="#section2-2">else Statement</a><br>
+        <a class="nav-link-sub" href="#section5-3">else if Statement</a><br>
+        <a class="nav-link-sub" href="#section5-4">switch Statement</a>
+      </details>
+      <div class="divider-small"></div>
+
+      <details open>
+        <summary><a class="nav-link" href="#section6">6. C++ Loops </a></summary>
+        <a class="nav-link-sub" href="#section6-1">while Loop</a><br>
+        <a class="nav-link-sub" href="#section2-2">do/while Loop</a><br>
+        <a class="nav-link-sub" href="#section6-3">for Loop</a><br>
+      </details>
+      <div class="divider-small"></div>
+
+      <details open>
+        <summary><a class="nav-link" href="#section7">7. C++ Break and Continue </a></summary>
+        <a class="nav-link-sub" href="#section6-1">Break</a><br>
+        <a class="nav-link-sub" href="#section2-2">Continue</a><br>
+        <a class="nav-link-sub" href="#section6-3">Break and Continue</a><br>
+      </details>
+      <div class="divider-small"></div>
+
+      <a class="nav-link" href="#reference">8. Reference</a>
+    </nav>
+
+    <main id="main-doc">
+    <h1>C++ Documentation Summary</h1>
+      <section class="main-section" id="section1">
+        <header>
+          <h2>1. Introduction</h2>
+          <p>C++ is a middle-level programming language developed by <i>Bjarne Stroustrup</i> starting in 1979 at Bell Labs. C++ runs on a variety of platforms, such as Windows, Mac OS, and the various versions of UNIX. This C++ tutorial adopts a simple and practical approach to describe the concepts of C++ for beginners to advanded software engineers.</p>
+        </header>
+
+        <h3 id="section1-1">Advantages of learning C++</h3>
+        <p>C++ is a MUST for students and working professionals to become a great Software Engineer. I will list down some of the key advantages of learning C++:</p>
+        <ul>
+          <li>C++ is very close to hardware, so you get a chance to work at a low level which gives you lot of control in terms of memory management, better performance and finally a robust software development.</li>
+          <li>C++ programming gives you a clear understanding about Object Oriented Programming. You will understand low level implementation of polymorphism when you will implement virtual tables and virtual table pointers, or dynamic type identification.</li>
+          <li>C++ is one of the every green programming languages and loved by millions of software developers. If you are a great C++ programmer then you will never sit without work and more importantly you will get highly paid for your work.</li>
+          <li>C++ is the most widely used programming languages in application and system programming. So you can choose your area of interest of software development.</li>
+          <li>C++ really teaches you the difference between compiler, linker and loader, different data types, storage classes, variable types their scopes etc.</li>
+        </ul>
+
+        <h3 id="section1-2">Applications of C++ Programming</h3>
+        <p>As mentioned before, C++ is one of the most widely used programming languages. It has it's presence in almost every area of software development. I'm going to list few of them here:</p>
+        <ol>
+          <li><span class="highlight">Application Software Development</span> - C++ programming has been used in developing almost all the major Operating Systems like Windows, Mac OSX and Linux. Apart from the operating systems, the core part of many browsers like Mozilla Firefox and Chrome have been written using C++. C++ also has been used in developing the most popular database system called MySQL.</li>
+          <li><span class="highlight">Programming Languages Development</span> - C++ has been used extensively in developing new programming languages like C#, Java, JavaScript, Perl, UNIX’s C Shell, PHP and Python, and Verilog etc.</li>
+          <li><span class="highlight">Computation Programming</span> - C++ is the best friends of scientists because of fast speed and computational efficiencies.</li>
+          <li><span class="highlight">Games Development</span> - C++ is extremely fast which allows programmers to do procedural programming for CPU intensive functions and provides greater control over hardware, because of which it has been widely used in development of gaming engines.</li>
+          <li><span class="highlight">Embedded System</span> - C++ is being heavily used in developing Medical and Engineering Applications like softwares for MRI machines, high-end CAD/CAM systems etc.</li>
+        </ol>
+        
+        <p>Example:<br> Hello World using C++</p>
+        <pre>
+          <code>
+            #include <iostream>
+              using namespace std;
+              
+              // main() is where program execution begins.
+              int main() {
+                cout << "Hello World"; // prints Hello World
+                return 0;
+              }
+          </code>
+        </pre>
+
+        <p>There are many C++ compilers available which you can use to compile and run above mentioned program:</p>
+        <ul>
+          <li>Apple C++. Xcode</li>
+          <li>Oracle C++</li>
+          <li>Microsoft Visual C++</li>
+          <li>Etc.</li>
+        </ul> 
+      </section>
+      <hr>
+
+      <section class="main-section" id="section2">
+        <header><h2>2. C++ Basic Syntax</h2></header>
+        <p>When we consider a C++ program, it can be defined as a collection of objects that communicate via invoking each other's methods. Let us now briefly look into what a class, object, methods, and instant variables mean.</p>
+       
+        <ul>
+          <li><span class="highlight">Object</span> − Objects have states and behaviors. Example: A dog has states - color, name, breed as well as behaviors - wagging, barking, eating. An object is an instance of a class.</li>
+          <li><span class="highlight">Class</span> − A class can be defined as a template/blueprint that describes the behaviors/states that object of its type support.</li>
+          <li><span class="highlight">Methods</span> − A method is basically a behavior. A class can contain many methods. It is in methods where the logics are written, data is manipulated and all the actions are executed.</li>
+          <li><span class="highlight">Instance Variables</span> − Each object has its unique set of instance variables. An object's state is created by the values assigned to these instance variables.</li>
+        </ul>
+
+        <h3 id="section2-1">C++ Identifiers</h3>
+        <p>A C++ identifier is a name used to identify a variable, function, class, module, or any other user-defined item. An identifier starts with a letter A to Z or a to z or an underscore (_) followed by zero or more letters, underscores, and digits (0 to 9).<br>
+
+          C++ does not allow punctuation characters such as @, $, and % within identifiers.<br>
+          C++ is a case-sensitive programming language. Thus, Manpower and manpower are two different identifiers in C++.</p>
+        
+          <h3 id="section2-2">C++ Comments</h3>
+          <p>Program comments are explanatory statements that you can include in the C++ code. These comments help anyone reading the source code. All programming languages allow for some form of comments. Comments can be singled-lined or multi-lined.</p>
+          <p>Single-line comments start with two forward slashes <span class="color-highlight">(//)</span>. Any text between // and the end of the line is ignored by the compiler (will not be executed).</p>
+            <pre>
+              <code>
+                // This is a comment
+                cout << "Hello World!";
+              </code>
+            </pre>
+
+          <p>Multi-line comments start with <span class="color-highlight">(/*)</span> and ends with <span class="color-highlight">(*/)</span>. Any text between /* and */ will be ignored by the compiler:</p>
+          <pre>
+            <code>
+              /* The code below will print the words Hello World!
+              to the screen, and it is amazing */
+              cout << "Hello World!";
+            </code>
+          </pre>
+      </section>
+      <hr>
+
+      <section class="main-section" id="section3">
+        <header><h2>3. C++ Variables</h2></header>
+        <p>Variables are containers for storing data values. In C++, there are different types of variables (defined with different keywords), for example:</p>
+        <ul>
+          <li><span class="color-highlight">int</span> - stores integers (whole numbers), without decimals, such as 123 or -123</li>
+          <li><span class="color-highlight">double</span> - stores floating point numbers, with decimals, such as 19.99 or -19.99</li>
+          <li><span class="color-highlight">char</span> - stores single characters, such as 'a' or 'B'. Char values are surrounded by single quotes</li>
+          <li><span class="color-highlight">string</span> - stores text, such as "Hello World". String values are surrounded by double quotes</li>
+          <li><span class="color-highlight">bool</span> - stores values with two states: true or false</li>
+        </ul>
+        
+        <h3 id="section3-1">Declaring (Creating) Variables</h3>
+        <p>To create a variable, specify the type and assign it a value:</p>
+        <code>
+          type variableName = value;
+        </code>
+        <p>Where type is one of C++ types (such as int), and variableName is the name of the variable (such as x or myName). The equal sign is used to assign values to the variable.</p>
+
+        <h3 id="section3-2">Display Variables</h3>
+        <p>The cout object is used together with the << operator to display variables. To combine both text and a variable, separate them with the << operator:</p>
+        <pre>
+          <code>
+            int myAge = 35;
+            cout << "I am " << myAge << " years old.";
+          </code>
+        </pre>
+
+        <h3 id="section3-3">Add Variables Together</h3>
+        <p>To add a variable to another variable, you can use the + operator:</p>
+        <pre>
+          <code>
+            int x = 5;
+            int y = 6;
+            int sum = x + y;
+            cout << sum;
+          </code>
+        </pre>
+
+        <h3 id="section3-4">Declare Many Variables</h3>
+        <p>To declare more than one variable of the same type, use a comma-separated list:</p>
+        <pre>
+          <code>
+            int x = 5, y = 6, z = 50;
+            cout << x + y + z;
+          </code>
+        </pre>
+      </section>
+      <hr>
+
+      <section class="main-section" id="section4">
+        <header><h2>4. C++ User Input</h2></header>
+        <p>You have already learned that <span class="color-highlight"><i>cout</i></span> is used to output (print) values. Now we will use <span class="color-highlight"><i>cin</i></span> to get user input. cin is a predefined variable that reads data from the keyboard with the extraction operator (>>).</p>
+        <p>In the following example, the user can input a number, which is stored in the variable x. Then we print the value of x:</p>
+        <pre>
+          <code>
+            int x; 
+            cout << "Type a number: "; // Type a number and press enter
+            cin >> x; // Get user input from the keyboard
+            cout << "Your number is: " << x; // Display the input value
+          </code>
+        </pre>
+        
+        <p><strong>Good To Know</strong></p>
+        <div class="gtk">
+        <pre>
+          <code class="gtk-code">
+            cout is pronounced "see-out". Used for output, and uses the insertion operator (<<)
+            cin is pronounced "see-in". Used for input, and uses the extraction operator (>>)
+          </code>
+        </pre>
+        </div>
+      </section>
+      <hr>
+
+      <section class="main-section" id="section5">
+        <header><h2>5. C++ Conditions and If Statements</h2></header>
+        <p>You already know that C++ supports the usual logical conditions from mathematics:</p>
+        <ul>
+          <li><span class="highlight">Than:</span> a < b</li>
+          <li><span class="highlight">Less than or equal to:</span> a <= b</li>
+          <li><span class="highlight">Greater than:</span> a > b</li>
+          <li><span class="highlight">Greater than or equal to:</span> a >= b</li>
+          <li><span class="highlight">Equal to:</span> a == b</li>
+          <li><span class="highlight">Not Equal to:</span> a != b</li>
+        </ul>
+
+        <p>You can use these conditions to perform different actions for different decisions.<br>
+          C++ has the following conditional statements:</p>
+          <ul>
+            <li>Use if to specify a block of code to be executed, if a specified condition is true</li>
+            <li>Use else to specify a block of code to be executed, if the same condition is false</li>
+            <li>Use else if to specify a new condition to test, if the first condition is false</li>
+            <li>Use switch to specify many alternative blocks of code to be executed</li>
+          </ul>
+
+        <h3 id="section5-1">The if Statement</h3>
+        <p>Use the if statement to specify a block of C++ code to be executed if a condition is true.</p>
+        <pre>
+          <code>
+            int x = 20;
+            int y = 18;
+            if (x > y) {
+              cout << "x is greater than y";
+            }
+          </code>
+        </pre>
+
+        <h3 id="section5-2">The else Statement</h3>
+        <p>Use the else statement to specify a block of code to be executed if the condition is false.</p>
+        <pre>
+          <code>
+            int time = 20;
+            if (time < 18) {
+              cout << "Good day.";
+            } else {
+              cout << "Good evening.";
+            }
+            // Outputs "Good evening."
+          </code>
+        </pre>
+
+        <h3 id="section5-3">The else if Statement</h3>
+        <p>Use the else if statement to specify a new condition if the first condition is false.</p>
+        <pre>
+          <code>
+            int time = 22;
+            if (time < 10) {
+              cout << "Good morning.";
+            } else if (time < 20) {
+              cout << "Good day.";
+            } else {
+              cout << "Good evening.";
+            }
+            // Outputs "Good evening."
+          </code>
+        </pre>
+
+        <h3 id="section5-4">The switch Statement</h3>
+        <p>Use the switch statement to select one of many code blocks to be executed.</p>
+        <p>This is how it works:</p>
+        <ul>
+          <li>The switch expression is evaluated once</li>
+          <li>The value of the expression is compared with the values of each case</li>
+          <li>If there is a match, the associated block of code is executed</li>
+          <li>The break and default keywords are optional, and will be described later in this chapter</li>
+        </ul>
+        <pre>
+          <code>
+            int day = 4;
+            switch (day) {
+              case 1:
+                cout << "Monday";
+                break;
+              case 2:
+                cout << "Tuesday";
+                break;
+              case 3:
+                cout << "Wednesday";
+                break;
+              case 4:
+                cout << "Thursday";
+                break;
+              case 5:
+                cout << "Friday";
+                break;
+              case 6:
+                cout << "Saturday";
+                break;
+              case 7:
+                cout << "Sunday";
+                break;
+            }
+            // Outputs "Thursday" (day 4)
+          </code>
+        </pre>
+
+        <h4>The break Keyword</h4>
+        <p>When C++ reaches a break keyword, it breaks out of the switch block.<br>
+          This will stop the execution of more code and case testing inside the block.<br>
+          When a match is found, and the job is done, it's time for a break. There is no need for more testing.</p>    
+      </section>
+      <hr>
+
+      <section class="main-section" id="section6">
+        <header><h2>6. C++ Loops</h2></header>
+        <p>Loops can execute a block of code as long as a specified condition is reached.<br>
+        Loops are handy because they save time, reduce errors, and they make code more readable.</p>
+
+        <h3 id="section6-1">The while loop</h3>
+        <p>The while loop loops through a block of code as long as a specified condition is true:</p>
+        <pre>
+          <code>
+            int i = 0;
+            while (i < 5) {
+              cout << i << "\n";
+              i++;
+            }
+          </code>
+        </pre>
+
+        <h3 id="section6-2">The do/while loop</h3>
+        <p>The do/while loop is a variant of the while loop. This loop will execute the code block once, before checking if the condition is true, then it will repeat the loop as long as the condition is true.</p>
+        <pre>
+          <code>
+            int i = 0;
+            do {
+              cout << i << "\n";
+              i++;
+            }
+            while (i < 5);
+          </code>
+        </pre>
+      
+        <h3 id="section6-3">The for loop</h3>
+        <p>When you know exactly how many times you want to loop through a block of code, use the for loop instead of a while loop:</p>
+        <code>
+          for (statement 1; statement 2; statement 3) {
+            // code block to be executed
+          }
+        </code>
+        
+        <ul>
+          <li><span class="color-highlight"><i>Statement 1</i></span> - is executed (one time) before the execution of the code block.</li>
+          <li><span class="color-highlight"><i>Statement 2</i></span> - defines the condition for executing the code block.</li>
+          <li><span class="color-highlight"><i>Statement 3</i></span> - is executed (every time) after the code block has been executed.</li>
+        </ul>
+
+        <pre>
+          <code>
+            for (int i = 0; i <= 10; i = i + 2) {
+              cout << i << "\n";
+            }
+          </code>
+        </pre>
+      </section>
+      <hr>
+
+      <section class="main-section" id="section7">
+        <header><h2>7. C++ Break and Continue</h2></header>
+        <h3>C++ Break</h3>
+        <p>You have already seen the break statement used in an earlier chapter of this tutorial. It was used to "jump out" of a switch statement. The break statement can also be used to jump out of a loop.</p>
+        <pre>
+          <code>
+            for (int i = 0; i < 10; i++) {
+              if (i == 4) {
+                break;
+              }
+              cout << i << "\n";
+            }
+          </code>
+        </pre>
+
+        <h3 id="section7-1">C++ Continue</h3>
+        <p>The continue statement breaks one iteration (in the loop), if a specified condition occurs, and continues with the next iteration in the loop.</p>
+        <pre>
+          <code>
+            for (int i = 0; i < 10; i++) {
+              if (i == 4) {
+                continue;
+              }
+              cout << i << "\n";
+            }
+          </code>
+        </pre>
+
+        <h3 id="section7-2">Break and Continue in While Loop</h3>
+        <p>You can also use break and continue in while loops:</p>
+        <p><span class="highlight"> Break Example</p></span>
+        <pre>
+          <code>
+            int i = 0;
+            while (i < 10) {
+              cout << i << "\n";
+              i++;
+              if (i == 4) {
+                break;
+              }
+            }
+          </code>
+        </pre>
+
+        <p><span class="highlight"> Continue Example</p></span>
+        <pre>
+          <code>
+            int i = 0;
+            while (i < 10) {
+              if (i == 4) {
+                i++;
+                continue;
+              }
+              cout << i << "\n";
+              i++;
+            }
+          </code>
+        </pre>  
+      </section>
+      <hr>    
+
+      <div id="reference">
+        <h2>8. Reference</h2>
+        <p>The information above displayed is just a basic summary of some of the "must-know" point regarding C++ programming, nevertheless you can get to learn more by attending to presential or online courses, Webinars, Hackatons, or by doing researches and self-paced learning throught the internet.</p>
+        <p>Our main sources of information in this project are <a target="_blank" href="https://www.w3schools.com/cpp/default.asp">w3schools</a> and <a target="_blank" href="https://www.tutorialspoint.com/cplusplus/index.htm">tutorialspoint.</a></p>
+      </div>
+
+    </main>
+  </body>
+</html>
