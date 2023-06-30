@@ -1,6 +1,8 @@
 @media screen and (min-width:480px) and (max-width:768px), (orientation:landscape) {
-  main {width:72vw;}
-  nav {width:26vw;}
+  main {width:68vw;}
+  nav {width:30vw;
+  height: auto;
+overflow: auto;;}
   body {width: 100vw;}
 }
 
