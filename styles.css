@@ -1,8 +1,10 @@
 @media screen and (min-width:480px) and (max-width:768px), (orientation:landscape) {
-  main {width:73vw;}
-  nav {width:20vw;}
-  body {width: 100%;}
+  main {width:72vw;}
+  nav {width:26vw;}
+  body {width: 100vw;}
 }
+
+
 
 .master-header{
   text-align: center;
