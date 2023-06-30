@@ -25,8 +25,8 @@ nav {
   position:fixed;
   z-index: 1;
   top: 1px;
-  height:38em;
-  width:20em;
+  height:98vh;
+  width:22vw;
   overflow-y:auto;
   border: 2px solid red;
   border-radius: 10px;
@@ -66,24 +66,25 @@ nav .nav-link-sub{
 
 body{
   width: 100vw;
-  background-color:rgba(195, 220, 242, 0.422);
+  background-color:rgba(228, 19, 47, 0.422);
 }
 
 main {
   display:block;
-  position: absolute;
-  top:1em;
-  left:21em;
-  width:73vw;
-  padding-bottom: 1em;
+  position:fixed;
+  overflow: auto;
+  top:1vh;
+  left:23vw;
+  width:77vw;
+  height: 98vh;
   text-align: justify;
-  background-color:rgba(156, 208, 242, 0.217);
+  background-color:rgba(22, 148, 231, 0.904);
 }
 
 a {font-style: normal;
   font-size:16px;
   text-decoration:none;
-  color: gainsboro;}
+  color: rgb(20, 31, 184);}
 
 .highlight {font-weight: bold;}
 
@@ -102,10 +103,15 @@ ul > li, ol > li{
 }
 
 P, h1, h2, h3, h4 {
-  padding: 0 6px;
+  padding:0 6px 0 15px;
 }
 
 h1 {
 text-decoration: underline;
 text-align: center;
+color:burlywood;
+display: block;
+background-color: blue;
+height: 50px;
+padding-top: 10px;
 }
