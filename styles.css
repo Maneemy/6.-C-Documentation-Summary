@@ -2,8 +2,10 @@
   main {width:68vw;}
   nav {width:30vw;
   height: auto;
-overflow: auto;;}
+overflow: auto;
+display: block;}
   body {width: 100vw;}
+  .master-header{font-size: 16px;}
 }
 
 
