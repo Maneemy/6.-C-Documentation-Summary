@@ -175,6 +175,11 @@ padding-top: 15px;
 
   #main-doc {
     position:fixed;
+    display: flex;
+    flex-direction:row;
+    float: left;
+    flex: content;
+    flex-wrap: wrap;
     left:26%;
     width:75%;
     right: 1%;
