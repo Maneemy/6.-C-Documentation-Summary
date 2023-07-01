@@ -168,8 +168,9 @@ padding-top: 15px;
   }
 
   #main-doc {
-    display: block;
-    position: fixed;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     left:26%;
     width:73%;
     max-height: 100%;
@@ -206,6 +207,8 @@ padding-top: 15px;
       color:black;
       text-align: center;
       margin: auto;
+      background-image: none;
+      background-color: aliceblue;
     }
 
 
