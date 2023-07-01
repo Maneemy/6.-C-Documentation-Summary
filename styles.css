@@ -229,5 +229,14 @@ padding-top: 15px;
       width:100em;
     }
 
+    nav .nav-link{
+      font-weight: bold;
+    }
+
+    #navbar a {font-style: normal;
+      font-size:10px;
+      text-decoration:none;
+      color: black;
+    }
 
 }
