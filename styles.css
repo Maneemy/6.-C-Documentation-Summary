@@ -185,21 +185,19 @@ padding-top: 15px;
   #main-doc {
     position:fixed;
     display: block;
-    overflow: auto;
+    overflow: scroll;
     left:26%;
     width: max-content;
     max-width:68vw;
     right: 1%;
-    z-index: 1;
     max-height: 98vh;
     margin-bottom: 1em;
-    overflow-wrap:normal;
-    box-sizing:border-box;
     visibility: hidden;
   }
 
   #main-doc > * {
     visibility: visible; /* Show the child elements */
+    overflow: scroll;
   }
 
   ul > li, ol > li{
