@@ -251,7 +251,7 @@ padding-top: 15px;
 
 }
 
-@media screen and (min-width: 481px) and (max-width:769px) and (orientation:landscape) {
+@media screen and (min-width: 769px) and (max-width:1024px) and (orientation:landscape) {
   .main-title {
     text-decoration: underline;
     text-align: center;
@@ -262,6 +262,6 @@ padding-top: 15px;
     width:74vw;
     padding-top: 10px;
     margin-left: 6px;
-    font-size: 30px;
+    font-size: 32px;
     }
 }
