@@ -3,6 +3,7 @@
   background-size: cover;
   height: fit-content;
   display: inline-block;
+  top: 0;
   width:14.6em;
   height: 8em;
   margin-bottom: -0.3em;
@@ -85,12 +86,15 @@ nav {
   overflow-y:auto;
   border-right: 6px solid rgba(107, 104, 103, 0.475);
   background-color: rgba(173, 216, 230, 0.162);
+  top: 0;
+  left: 0;
 }
 
 #navbar a {font-style: normal;
   font-size:1em;
   text-decoration:none;
   color: black;
+  text-indent: 6px;
 }
 
 .highlight {font-weight: bold;}
@@ -156,7 +160,7 @@ text-indent: 15px;
 padding-top: 15px;
 }
 
-/*@media screen and (min-width:320px) and (max-width: 480px) and (orientation:portrait) {
+@media screen and (min-width:320px) and (max-width: 480px) and (orientation:portrait) {
 
   body{
     width: 100vw;
