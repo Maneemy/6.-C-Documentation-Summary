@@ -176,11 +176,12 @@ padding-top: 15px;
   #navbar {
     display:block;
     position: fixed;
-    width:25%;
+    width:28%;
     height:fit-content;
     padding-bottom: 1em;
     left: 0;
     top: 0;
+    overflow: auto;
   }
 
   #main-doc {
@@ -188,20 +189,18 @@ padding-top: 15px;
     display: block;
     overflow-y: auto;
     overflow-x: hidden;
-    left:27%;
+    left:29%;
     width: max-content;
-    max-width:70vw;
+    max-width:65vw;
     z-index: 1;
     max-height: 98vh;
     margin-bottom: 1em;
-    box-sizing:content-box;
-    /*visibility: hidden;*/
   }
 
   code{
     display:block;
     background-color: rgba(160, 167, 173, 0.521);
-    width: 55vw;
+    width: 50vw;
     max-width:55vw;
     overflow-x: auto;
     margin-left: 15px;
@@ -241,7 +240,7 @@ padding-top: 15px;
     .divider-small{
       display: block;
       background-color:gray;
-      height: 30px;
+      height: 3px;
       width: 30px;
     }
     
@@ -251,6 +250,10 @@ padding-top: 15px;
       margin-left:1em;
       height: 2px;
       width:15px;
+    }
+
+    hr {border: 3px solid grey;
+      width: 55vw;
     }
 
     nav .nav-link{
