@@ -167,10 +167,10 @@ padding-top: 15px;
     padding-bottom: 5em;
   }
   #main {
-    position: absolute;
-    left: 115px;;
-    max-width: 356px;
-    width:350px;
+    position: fixed;
+    left: 150px;;
+    max-width: 330px;
+    width:300px;
     max-height: 100%;
     margin-bottom: 5em;
   }
