@@ -176,7 +176,7 @@ padding-top: 15px;
   #navbar {
     display:block;
     position: fixed;
-    width:26%;
+    width:25%;
     height:fit-content;
     padding-bottom: 1em;
     left: 0;
@@ -249,8 +249,8 @@ padding-top: 15px;
       background-color:gray;
       display: block;
       margin-left:1em;
-      height: 20px;
-      width:50em;
+      height: 2px;
+      width:15px;
     }
 
     nav .nav-link{
