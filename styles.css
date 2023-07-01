@@ -159,23 +159,15 @@ padding-top: 15px;
 @media only screen and (max-width: 480px) {
 
   #navbar {
-    display: flex;
     position: fixed;
-    flex-direction: row;
-    flex-wrap: wrap;
-    float: left;
-    width:30em;
+    width:30rem;
     max-height: 100rem;
     padding-bottom: 5em;
   }
   #main {
-    display: flex;
-    position:fixed;
-    flex-direction: row;
-    flex: auto;
-    flex-wrap: wrap;
-    float: right;
-    width:70em;
+    position: absolute;
+    left: 35rem;
+    width:70rem;
     max-height: 100rem;
     margin-bottom: 5em;
   }
