@@ -156,7 +156,7 @@ text-indent: 15px;
 padding-top: 15px;
 }
 
-@media only screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
 
   #navbar {
     display:block;
@@ -168,7 +168,7 @@ padding-top: 15px;
   }
   #main {
     position: fixed;
-    left: 150px;;
+    left: 150px;
     max-width: 330px;
     width:300px;
     max-height: 100%;
