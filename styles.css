@@ -174,8 +174,9 @@ padding-top: 15px;
     padding-bottom: 5em;
   }
 
-  ul > li, ol > li {
-    line-height: 2px;
+  ul > li, ol > li{
+    padding: 4px 4px;
+    line-height: 4vh;
   }
 }
 
