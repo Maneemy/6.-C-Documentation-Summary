@@ -210,6 +210,7 @@ padding-top: 15px;
     padding-right: 40em;
     border-radius: 2px;
     line-height: 2em;
+    white-space:break-spaces;
   }
 
   ul > li, ol > li{
