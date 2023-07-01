@@ -201,9 +201,12 @@ padding-top: 15px;
     display:block;
     background-color: rgba(160, 167, 173, 0.521);
     width: 70vw;
+    height: fit-content;
     text-align: left;
+
     border-radius: 2px;
     line-height: 2px;
+    margin-right:2px ;
     overflow: auto;
   }
 
