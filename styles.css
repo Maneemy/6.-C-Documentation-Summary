@@ -184,7 +184,7 @@ padding-top: 15px;
 
   #main-doc {
     position:fixed;
-    display: flex;
+    display: none;
     flex-direction:row;
     float: left;
     flex: content;
