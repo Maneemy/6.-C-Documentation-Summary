@@ -162,14 +162,15 @@ text-indent: 15px;
 padding-top: 15px;
 }
 
+/*----------------For mobile view----------------*/
 @media screen and (min-width:320px) and (max-width: 480px) and (orientation:portrait) {
 
   body{
     width: 100vw;
     height: 98vh;
     background-image: none;
-   background-color: aliceblue;
-   box-sizing: border-box;
+    background-color: aliceblue;
+    box-sizing: border-box;
   }
 
   #navbar {
@@ -200,17 +201,16 @@ padding-top: 15px;
   code{
     display:block;
     background-color: rgba(160, 167, 173, 0.521);
-    max-width:70vw;
+    width: 55vw;
+    max-width:55vw;
     overflow-x: auto;
-    margin-left: 30px;
+    margin-left: 15px;
     margin-top: -3vh;
     margin-bottom: -1vh;
-    text-align: left;
-    padding: auto;
+    text-align:left;
     border-radius: 2px;
     line-height: 2em;
-    white-space:break-spaces;
-  }
+    }
 
   ul > li, ol > li{
     padding: 4px 4px;
@@ -238,10 +238,11 @@ padding-top: 15px;
       height: 1px;
     }
 
-    .divider-small{
+    div > .divider-small{
+      display: block;
       background-color:gray;
-      height: 3px;
-      margin: 1vh 0;
+      height: 30px;
+      width: 30px;
     }
     
     .divider-short{
