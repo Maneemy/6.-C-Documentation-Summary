@@ -1,10 +1,9 @@
-@media screen and (min-width:480px) and (max-width:768px), (orientation:landscape) {
-  main {width:68vw;}
-  nav {width:30vw;
+@media screen and (min-width:480px) and (max-width:768px) {
+  main {display: contents;}
+  nav {width:40vw;
   height: auto;
   overflow: auto;}
-  body {width: 100vw;}
-  .master-header{font-size: 16px;}
+
 }
 
 .master-header{
