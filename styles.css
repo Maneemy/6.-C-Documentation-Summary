@@ -192,6 +192,7 @@ padding-top: 15px;
     box-sizing: content-box;
   }
 
+  .main-box{box-sizing: border-box;}
 
   ul > li, ol > li{
     padding: 4px 4px;
