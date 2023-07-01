@@ -156,11 +156,11 @@ text-indent: 15px;
 padding-top: 15px;
 }
 
-@media only screen and (max-width: 480px) and (orientation:portrait) {
+@media only screen and (max-width: 480px) {
 
   #navbar {
     display: flex;
-    position: relative;
+    position: fixed;
     flex-direction: row;
     flex-wrap: wrap;
     float: left;
