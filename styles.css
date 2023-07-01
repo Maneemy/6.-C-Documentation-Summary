@@ -161,16 +161,17 @@ padding-top: 15px;
   #navbar {
     display:block;
     position: fixed;
-    width:22rem;
-    max-width: 30em;
-    max-height: 100rem;
+    width:106px;
+    max-width: 115px;
+    max-height: 100%;
     padding-bottom: 5em;
   }
   #main {
     position: absolute;
-    left: 35rem;
-    width:70rem;
-    max-height: 100rem;
+    left: 115px;;
+    max-width: 356px;
+    width:350px;
+    max-height: 100%;
     margin-bottom: 5em;
   }
 
