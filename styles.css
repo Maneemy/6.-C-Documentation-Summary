@@ -184,7 +184,7 @@ padding-top: 15px;
 
   #main-doc {
     position:fixed;
-    display: none;
+    display: flex;
     flex-direction:row;
     float: left;
     flex: content;
@@ -198,8 +198,12 @@ padding-top: 15px;
     margin-bottom: 1em;
     overflow-wrap:normal;
     box-sizing:border-box;
+    visibility: hidden;
   }
 
+  #main-doc > * {
+    visibility: visible; /* Show the child elements */
+  }
 
   ul > li, ol > li{
     padding: 4px 4px;
