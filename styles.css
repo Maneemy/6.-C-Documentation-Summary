@@ -165,7 +165,8 @@ width: 70vw;}
 @media only screen and (max-width: 815px) {
 
   #navbar {
-    position: fixed;
+    display: block;
+    position:absolute;
     top: 0;
     padding: 0;
     margin: 0;
