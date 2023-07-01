@@ -172,6 +172,7 @@ padding-top: 15px;
     height: fit-content;
     max-width: 100vh;
     padding-bottom: 5em;
+    position: relative;
   }
 
   ul > li, ol > li{
