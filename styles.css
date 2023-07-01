@@ -189,14 +189,13 @@ padding-top: 15px;
     max-height: 98vh;
     margin-bottom: 5em;
     overflow-wrap:normal;
-    box-sizing: content-box;
+    box-sizing:border-box;
   }
 
-  .main-box{box-sizing: border-box;}
 
   ul > li, ol > li{
     padding: 4px 4px;
-    line-height: 2vh;
+    line-height: 3vh;
   }
 
   .main-title {
