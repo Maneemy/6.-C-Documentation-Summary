@@ -176,7 +176,7 @@ padding-top: 15px;
   #navbar {
     display:block;
     position: fixed;
-    width:25%;
+    width:26%;
     height:fit-content;
     padding-bottom: 1em;
     left: 0;
@@ -188,7 +188,7 @@ padding-top: 15px;
     display: block;
     overflow-y: auto;
     overflow-x: hidden;
-    left:26%;
+    left:27%;
     width: max-content;
     max-width:70vw;
     z-index: 1;
@@ -238,7 +238,7 @@ padding-top: 15px;
       height: 1px;
     }
 
-    div > .divider-small{
+    .divider-small{
       display: block;
       background-color:gray;
       height: 30px;
@@ -249,8 +249,8 @@ padding-top: 15px;
       background-color:gray;
       display: block;
       margin-left:1em;
-      height: 2px;
-      width:100em;
+      height: 20px;
+      width:50em;
     }
 
     nav .nav-link{
