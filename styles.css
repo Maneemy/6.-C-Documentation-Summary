@@ -159,15 +159,13 @@ padding-top: 15px;
 @media only screen and (max-width: 480px) and (orientation:portrait) {
 
   #navbar {
-    display:block;
-    align-items: start;
+    position: fixed;
     width:30em;
     max-height: 100rem;
     padding-bottom: 5em;
   }
   #main {
-    display:block;
-    position: absolute;
+    position: fixed;
     left: 35em;
     text-overflow: clip;
     align-items: end;
