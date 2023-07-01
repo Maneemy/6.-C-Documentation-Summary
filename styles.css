@@ -158,8 +158,14 @@ padding-top: 15px;
 
 @media screen and (min-width:320px) and (max-width: 480px) and (orientation:portrait) {
 
+  body{
+    width: 100vw;
+    height: 98vh;
+    background-image: none;
+   background-color: aliceblue;
+  }
+
   #navbar {
-    display:block;
     position: fixed;
     width:25%;
     max-height: 100%;
