@@ -161,16 +161,17 @@ padding-top: 15px;
 @media only screen and (max-width: 480px) {
 
   #navbar {
-   width: 30vw;
-   max-height: 100rem;
+  position: fixed;
+   width: 40vw;
+   margin-bottom: 100rem;
    padding-bottom: 5em;
   }
   #main {
-    left: 30vw;
-    width: 70vw;
+    left: 40vw;
+    width: 60vw;
     max-width: 100rem;
-    padding-bottom: 5em;
-    position:absolute;
+    margin-bottom: 5em;
+    position:fixed;
   }
 
   ul > li, ol > li{
