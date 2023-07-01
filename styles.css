@@ -159,6 +159,7 @@ padding-top: 15px;
 @media only screen and (max-width: 480px) {
 
   #navbar {
+    display: inline-block;
     position: fixed;
     width:22rem;
     max-width: 30em;
