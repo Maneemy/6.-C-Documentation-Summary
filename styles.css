@@ -183,6 +183,7 @@ padding-top: 15px;
     flex: content;
     flex-wrap: wrap;
     left:26%;
+    width: max-content;
     max-width:68vw;
     right: 1%;
     z-index: 1;
