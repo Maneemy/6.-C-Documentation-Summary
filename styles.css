@@ -158,8 +158,6 @@ padding-top: 15px;
 
 @media screen and (min-width:320px) and (max-width: 480px) and (orientation:portrait) {
 
-  box-sizing: border-box;
-
   body{
     width: 100vw;
     height: 98vh;
@@ -185,12 +183,13 @@ padding-top: 15px;
     flex: content;
     flex-wrap: wrap;
     left:26%;
-    max-width:65vw;
+    max-width:68vw;
     right: 1%;
     z-index: 1;
     max-height: 98vh;
     margin-bottom: 5em;
     overflow-wrap:normal;
+    box-sizing: content-box;
   }
 
 
