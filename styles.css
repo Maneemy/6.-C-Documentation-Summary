@@ -200,14 +200,16 @@ padding-top: 15px;
   code{
     display:block;
     background-color: rgba(160, 167, 173, 0.521);
-    width: 70vw;
-    height: fit-content;
+    width: fit-content;
+    max-width:70vw;
+    overflow-x: auto;
+    margin-left: 30px;
+    margin-top: -3vh;
+    margin-bottom: -1vh;
     text-align: left;
-
+    padding-right: 7vw;
     border-radius: 2px;
-    line-height: 2px;
-    margin-right:2px ;
-    overflow: auto;
+    line-height: 2em;
   }
 
   ul > li, ol > li{
