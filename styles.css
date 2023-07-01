@@ -1,22 +1,13 @@
-.master-header{
-  text-align: center;
-  font-size: 50px;
-  font-style: oblique;
-  font-family: cursive;
-  color: black;
-}
-
 .master-header-box{
   background-image:url(https://wallpapercave.com/dwp1x/wp4009916.png);
-  background-position: center;
   background-size: cover;
   height: fit-content;
   display: inline-block;
-  width:18.8em;
-  height: 9em;
-  margin-bottom: -0.65em;
-  background-position-x: left;
-
+  width:14.6em;
+  height: 8em;
+  margin-bottom: -0.3em;
+  background-position-x:center;
+  color:rgb(19, 140, 161);
 }
 
 .divider-small{
@@ -28,9 +19,9 @@
 .divider-short{
   background-color:gray;
   display: block;
-  margin: auto;
+  margin-left:1em;
   height: 2px;
-  width:16em;
+  width:10em;
 }
 
 details > summary {
@@ -75,8 +66,7 @@ body{
 }
 
 main {
-  display:block;
-  position:fixed;
+  position: absolute;
   overflow:auto;
   left:22.5vw;
   width:77.5vw;
@@ -92,9 +82,8 @@ nav {
   background-size:cover;
   background-position-x: center;
   position:fixed;
-  z-index: 1;
   height:100vh;
-  width:22vw;
+  width:22.5vw;
   overflow-y:auto;
   border-right: 6px solid rgba(107, 104, 103, 0.475);
   background-color: rgba(173, 216, 230, 0.162);
@@ -142,7 +131,7 @@ background-color:rgba(58, 51, 51, 0.372);
 height: 60px;
 width:74vw;
 padding-top: 10px;
-margin-left: 2px;
+margin-left: 6px;
 font-size: 40px;
 }
 
@@ -162,17 +151,30 @@ code{
 hr {border: 3px solid grey;
 width: 70vw;}
 
-@media only screen and (min-width: 1024px) {
+header {
+font-weight: bold;
+font-size:21px;
+text-indent: 15px;
+padding-top: 15px;
+}
+
+@media only screen and (max-width: 480px) {
 
   #navbar {
-    width: 100%;
-    height: 100%;
+   width: 30vw;
+  }
+  #main {
+    left: 30vw;
+    width: 70vw;
   }
 }
 
 @media only screen and (max-width: 1080px) {
+  #navbar{
+   
+  }
   #main-doc {
-    width: 75vw;
+    
   }
 
 }
