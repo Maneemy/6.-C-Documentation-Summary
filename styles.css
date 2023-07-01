@@ -183,19 +183,28 @@ padding-top: 15px;
   }
 
   #main-doc {
-   position:fixed;
+    position:fixed;
     display: block;
     overflow-y: auto;
     overflow-x: hidden;
     left:26%;
     width: max-content;
-    max-width:68vw;
-    right: 1%;
+    max-width:70vw;
     z-index: 1;
     max-height: 98vh;
     margin-bottom: 1em;
     box-sizing:content-box;
     /*visibility: hidden;*/
+  }
+
+  code{
+    display:block;
+    background-color: rgba(160, 167, 173, 0.521);
+    width: 70vw;
+    text-align: left;
+    border-radius: 2px;
+    line-height: 2px;
+    overflow: auto;
   }
 
   ul > li, ol > li{
