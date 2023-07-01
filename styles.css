@@ -182,7 +182,8 @@ padding-top: 15px;
     padding-bottom: 1em;
     left: 0;
     top: 0;
-    overflow: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
   }
 
   #navbar a {font-style: normal;
@@ -205,6 +206,8 @@ padding-top: 15px;
   nav .nav-link-sub{
     padding: 5px 0px 5px 10px;
     text-align:left;
+    color: black;
+    font-weight: 500;
   
   }
 
@@ -258,6 +261,7 @@ padding-top: 15px;
       background-image: none;
       background-color: aliceblue;
       height: 1px;
+      visibility: hidden;
     }
 
     .divider-small{
