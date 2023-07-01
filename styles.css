@@ -169,6 +169,7 @@ padding-top: 15px;
     height: 98vh;
     background-image: none;
    background-color: aliceblue;
+   box-sizing: border-box;
   }
 
   #navbar {
