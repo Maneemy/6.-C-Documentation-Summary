@@ -161,18 +161,17 @@ padding-top: 15px;
   #navbar {
     display:block;
     align-items: start;
-    width:30rem;
+    width:30em;
     max-height: 100rem;
-    margin-bottom: 100rem;
     padding-bottom: 5em;
   }
   #main {
     display:block;
     position: absolute;
-    left: 35rem;
+    left: 35em;
     text-overflow: clip;
     align-items: end;
-    width: 65rem;
+    width: 65em;
     max-height: 100rem;
     margin-bottom: 5em;
   }
