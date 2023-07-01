@@ -207,7 +207,8 @@ padding-top: 15px;
     margin-top: -3vh;
     margin-bottom: -1vh;
     text-align: left;
-    padding-right: 7vw;
+    padding-left: 3px;
+    padding-right: 1px;
     border-radius: 2px;
     line-height: 2em;
   }
