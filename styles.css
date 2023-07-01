@@ -183,8 +183,8 @@ padding-top: 15px;
   }
 
   #main-doc {
-   /* position:fixed;
-    display: block;*/
+   position:fixed;
+    display: block;
     overflow: auto;
     left:26%;
     width: max-content;
@@ -193,8 +193,8 @@ padding-top: 15px;
     z-index: 1;
     max-height: 98vh;
     margin-bottom: 1em;
-    /*box-sizing:border-box;*/
-    visibility: hidden;
+    box-sizing:border-box;
+    /*visibility: hidden;*/
   }
 
   #main-doc > * {
