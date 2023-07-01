@@ -175,8 +175,9 @@ padding-top: 15px;
 
   #navbar {
     display:block;
+    text-align: justify;
     position: fixed;
-    width:28%;
+    width:25%;
     height:fit-content;
     padding-bottom: 1em;
     left: 0;
@@ -184,14 +185,32 @@ padding-top: 15px;
     overflow: auto;
   }
 
+  #navbar a {font-style: normal;
+    font-size:10px;
+    text-decoration:none;
+    color: black;
+    text-indent: 6px;
+  }
+
+  nav .nav-link{
+    padding-top: 5px;
+    padding-right: 6px;
+    margin: 6px 3px;
+    font-weight: bold;
+  }
+  
+  nav .nav-link-sub{
+    padding: 5px 0px 5px 30px;
+  
+  }
+
   #main-doc {
     position:fixed;
     display: block;
     overflow-y: auto;
     overflow-x: hidden;
-    left:29%;
-    width: max-content;
-    max-width:65vw;
+    left:26%;
+    width: 74%;
     z-index: 1;
     max-height: 98vh;
     margin-bottom: 1em;
@@ -200,7 +219,7 @@ padding-top: 15px;
   code{
     display:block;
     background-color: rgba(160, 167, 173, 0.521);
-    width: 50vw;
+    width: 55vw;
     max-width:55vw;
     overflow-x: auto;
     margin-left: 15px;
