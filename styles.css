@@ -166,9 +166,10 @@ padding-top: 15px;
   }
 
   #navbar {
+    display:block;
     position: fixed;
     width:25%;
-    max-height: 100%;
+    height:fit-content;
     padding-bottom: 5em;
   }
 
