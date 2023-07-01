@@ -162,17 +162,15 @@ padding-top: 15px;
 
   #navbar {
    width: 30vw;
-   height: fit-content;
-   max-height: 100vh;
+   max-height: 100rem;
    padding-bottom: 5em;
   }
   #main {
     left: 30vw;
     width: 70vw;
-    height: fit-content;
-    max-width: 100vh;
+    max-width: 100rem;
     padding-bottom: 5em;
-    position: relative;
+    position:absolute;
   }
 
   ul > li, ol > li{
