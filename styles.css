@@ -201,15 +201,13 @@ padding-top: 15px;
     display:block;
     background-color: rgba(160, 167, 173, 0.521);
     max-width:70vw;
-    padding-right: 15vw;
     overflow-x: auto;
     margin-left: 30px;
     margin-top: -3vh;
     margin-bottom: -1vh;
-    
     text-align: left;
-    padding-left: 3px;
-    padding-right: 1px;
+    padding-left: 1em;
+    padding-right: 40em;
     border-radius: 2px;
     line-height: 2em;
   }
