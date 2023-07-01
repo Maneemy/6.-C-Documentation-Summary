@@ -164,15 +164,17 @@ padding-top: 15px;
    width: 30vw;
    height: fit-content;
    max-height: 100vh;
+   padding-bottom: 5em;
   }
   #main {
     left: 30vw;
     width: 70vw;
     height: fit-content;
     max-width: 100vh;
+    padding-bottom: 5em;
   }
 
-  #main ul > li, #main ol > li {
+  ul > li, ol > li {
     line-height: 2px;
   }
 }
