@@ -159,16 +159,16 @@ padding-top: 15px;
 @media only screen and (max-width: 480px) {
 
   #navbar {
-    display: flex;
-    flex-direction: column;
+    display:block;
+
    width:30vw;
    max-height: 100rem;
    margin-bottom: 100rem;
    padding-bottom: 5em;
   }
   #main {
-    display: flex;
-    flex-direction: column;
+    display:block;
+
     width: 70vw;
     max-height: 100rem;
     margin-bottom: 5em;
@@ -176,9 +176,9 @@ padding-top: 15px;
 
   body{
     width: 100%;
-    background-image: url(https://img.freepik.com/free-vector/dark-gray-blurred-background_1034-243.jpg?w=740&t=st=1688166675~exp=1688167275~hmac=4b6caad70b8a21de31418ded7708b5ef6ea5a74ca15a843274151f2a05233872);
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: aliceblue;
   }
 
   ul > li, ol > li{
