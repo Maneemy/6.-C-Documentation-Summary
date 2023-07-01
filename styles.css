@@ -184,11 +184,8 @@ padding-top: 15px;
 
   #main-doc {
     position:fixed;
-    display: flex;
-    flex-direction:row;
-    float: left;
-    flex: content;
-    flex-wrap: wrap;
+    display: block;
+    overflow: auto;
     left:26%;
     width: max-content;
     max-width:68vw;
