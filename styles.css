@@ -185,7 +185,8 @@ padding-top: 15px;
   #main-doc {
    position:fixed;
     display: block;
-    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
     left:26%;
     width: max-content;
     max-width:68vw;
@@ -195,11 +196,6 @@ padding-top: 15px;
     margin-bottom: 1em;
     box-sizing:content-box;
     /*visibility: hidden;*/
-  }
-
-  #main-doc > * {
-    visibility: visible; /* Show the child elements */
-    box-sizing: content-box;
   }
 
   ul > li, ol > li{
