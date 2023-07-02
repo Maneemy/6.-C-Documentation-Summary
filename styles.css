@@ -234,7 +234,8 @@ padding-top: 15px;
   #main-doc {
     position:fixed;
     display: block;
-    overflow: auto hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
     left:28.5%;
     width:72.5%;
     z-index: 1;
