@@ -204,7 +204,7 @@ padding-top: 15px;
   nav .nav-link{
     padding-top: 5px;
     padding-right: 2px;
-    margin: 6px 1px;
+    margin: 8px 2px;
     font-weight: bold;
     text-align: left;
   }
@@ -250,7 +250,7 @@ padding-top: 15px;
     width: 53vw;
     overflow-x: auto;
     margin-left: 15px;
-    margin-top: -3vh;
+    margin-top: 15px;
     margin-bottom: -1vh;
     text-align:left;
     border-radius: 2px;
@@ -282,8 +282,8 @@ padding-top: 15px;
     width:100%;
     height:15%;
     margin-bottom: -0.3em;
-    background-size: 240px 100px;
-    background-position-x: -65px;
+    background-size: 250px 120px;
+    background-position-x: -68px;
     color:rgba(84, 95, 95, 0.014);
     text-align: right;
     }
