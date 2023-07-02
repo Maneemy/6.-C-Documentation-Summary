@@ -162,9 +162,9 @@ text-indent: 15px;
 padding-top: 15px;
 }
 
-/*----------------For mobile view----------------*/
-@media screen and (min-width:320px) and (max-width: 480px) and (orientation:portrait) {
-
+/*--------------------------------------------------For mobile view----------------------------------------------*/
+@media screen and (min-width:320px) and (max-width: 480px) and (orientation:portrait) and (orientation:landscape) 
+{
   body{
     width: 100vw;
     height: 98vh;
@@ -239,7 +239,6 @@ padding-top: 15px;
     z-index: 1;
     max-height: 98vh;
     margin-bottom: 1em;
-    
   }
 
   code{
@@ -302,19 +301,4 @@ padding-top: 15px;
       width: 55vw;
     }
 
-}
-
-@media screen and (min-width: 769px) and (max-width:1024px) and (orientation:landscape) {
-  .main-title {
-    text-decoration: underline;
-    text-align: center;
-    color:black;
-    display: block;
-    background-color:rgba(58, 51, 51, 0.372);
-    height: 60px;
-    width:74vw;
-    padding-top: 10px;
-    margin-left: 6px;
-      font-size: 32px;
-    }
 }
