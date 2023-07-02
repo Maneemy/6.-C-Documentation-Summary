@@ -68,7 +68,8 @@ body{
 
 main {
   position: fixed;
-  overflow:auto;
+  overflow-y: auto;
+  overflow-x: hidden;
   left:22.5vw;
   width:77.5vw;
   height: 100vh;
@@ -184,7 +185,8 @@ padding-top: 15px;
     padding-bottom: 1em;
     left: 0;
     top: 0;
-    overflow:auto hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
   }
 
   nav .nav-link-sub, .nav-link{
@@ -362,7 +364,8 @@ padding-top: 15px;
   
   main {
     position: fixed;
-    overflow:auto;
+    overflow-y:auto;
+    overflow-x: hidden;
     left:27%;
     width:73%;
     height: 99vh;
@@ -385,7 +388,8 @@ padding-top: 15px;
     background-color: rgba(173, 216, 230, 0.162);
     top: 0;
     left: 0;
-    overflow:auto hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
   }
   
   #navbar a {font-style: normal;
@@ -459,7 +463,8 @@ padding-top: 15px;
     padding-right: 7vw;
     border-radius: 2px;
     line-height: 2em;
-    overflow: auto hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
   }
   
   hr {border: 3px solid grey;
