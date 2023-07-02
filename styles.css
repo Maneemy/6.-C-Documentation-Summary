@@ -177,7 +177,7 @@ padding-top: 15px;
     display:block;
     text-align: justify;
     position: fixed;
-    width:25%;
+    width:28%;
     height:98%;
     margin: 1px;
     padding-bottom: 1em;
@@ -187,27 +187,46 @@ padding-top: 15px;
     overflow-x:hidden;
   }
 
-  #navbar a {font-style: normal;
+  nav .nav-link-sub, .nav-link{
+    display: inline-block; 
+  }
+
+  #navbar a {
+    font-style: normal;
+    font-size: 10px;
     color: black;
     text-indent: 2px;
+    text-align: start;
   }
 
   nav .nav-link{
-    display:block;
     padding-top: 5px;
-    padding-right: 3px;
+    padding-right: 2px;
     margin: 6px 1px;
     font-weight: bold;
     text-align: left;
-    font-size: 8px;
   }
   
   nav .nav-link-sub{
     padding: 5px 0px 5px 10px;
     text-align:left;
     color: black;
-    font-weight: 300;
-    font-size: 6px;  
+    font-weight: 500;
+  }
+
+  details > summary {
+    list-style:none;
+  }
+  summary::-webkit-details-marker {
+    display: none;
+  }
+  
+  summary::after {
+    content: "+";
+  }
+
+  details[open] summary:after {
+    content: "-";   
   }
 
   #main-doc {
@@ -215,8 +234,8 @@ padding-top: 15px;
     display: block;
     overflow-y: auto;
     overflow-x: hidden;
-    left:26%;
-    width: 74%;
+    left:28%;
+    width:72%;
     z-index: 1;
     max-height: 98vh;
     margin-bottom: 1em;
@@ -226,8 +245,7 @@ padding-top: 15px;
   code{
     display:block;
     background-color: rgba(160, 167, 173, 0.521);
-    width: 55vw;
-    max-width:55vw;
+    width: 53vw;
     overflow-x: auto;
     margin-left: 15px;
     margin-top: -3vh;
